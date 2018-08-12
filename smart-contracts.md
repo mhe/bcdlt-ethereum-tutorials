@@ -1,6 +1,15 @@
 ![BC Tech logo](images/bctech-logo.png)
 # Ethereum smart contracts
 
+This tutorial is aimed to help you:
+
+- Write a simple smart contract, and interact with it.
+- Learn how to write tests for your smart contracts.
+
+## Prerequisites
+
+For this tutorial we assume you have done the the other tutorial on [setting up an Ethereum network](../ethereum-network).
+
 ## Smart contracts
 
 We will now start with deploying a smart contract that is provided to you already. In order to deploy smart contracts, you need to compile them. For this we will install `solc-js` with:

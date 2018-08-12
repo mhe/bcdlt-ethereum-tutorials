@@ -1,5 +1,16 @@
 ![BC Tech logo](images/bctech-logo.png)
-# Ethereum network
+# Making an Ethereum network
+
+This tutorial is aimed to help you:
+
+- Set up an environment for writing and testing smart contracts for Ethereum.
+- Set up your own private Ethereum network to test your smart contracts.
+- Set up a wallet you can use on your own Ethereum network.
+
+And optionally:
+
+- Merge your own private network with those of classmates.
+
 
 ## Prerequisites
 
@@ -153,3 +164,26 @@ true
 
 After this, you should only see the balance of Bob's wallets increasing in Mist, since Alice is not mining anymore.
 
+### Pointers
+
+#### Classmate node ID
+
+To connect your node to a classmate, you need to change the node ID you give them. Suppose your node ID is:
+
+```
+"enode://7d1a53e8c080c2e96bf0f24e09f1954f613e40e3a886b0d25f3b2ac761d32f2dee07c0a7313ed848d063ae4bb4444c3b1064e3ba0ac1674d5c84a2f60b7b2993@[::]:40301?discport=0"
+```
+
+The part behind the `@` is the machine and port where your node should try to connect in the form `ip:port`. In our example the IP is `[::]` and the port `40301`. You will need to change the IP part of your node ID to actual IP of your computer to allow other nodes on a different machine to connect to yours. Your can find your own IP using:
+
+```
+ip -4 a | grep inet | grep "130.89"
+```
+
+Select the IPv4 address (the part right after `inet` with the netmask (the part behind and including the `/`) and replace the IP part of your node ID with it. Your node ID should start looking something like this:
+
+```
+"enode://7d1a53e8c080c2e96bf0f24e09f1954f613e40e3a886b0d25f3b2ac761d32f2dee07c0a7313ed848d063ae4bb4444c3b1064e3ba0ac1674d5c84a2f60b7b2993@130.89.123.234:40301?discport=0"
+```
+
+Your classmates can use this node ID to connect with your node over the university network.
