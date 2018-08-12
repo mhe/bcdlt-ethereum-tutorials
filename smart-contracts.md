@@ -1,3 +1,6 @@
+![BC Tech logo](images/bctech-logo.png)
+# Ethereum smart contracts
+
 ## Smart contracts
 
 We will now start with deploying a smart contract that is provided to you already. In order to deploy smart contracts, you need to compile them. For this we will install `solc-js` with:

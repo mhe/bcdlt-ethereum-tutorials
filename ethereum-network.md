@@ -1,3 +1,6 @@
+![BC Tech logo](images/bctech-logo.png)
+# Ethereum network
+
 ## Prerequisites
 
 This tutorial is written for `Ubuntu Linux 16.04 LTS` and should also work on other Debian based Linux distributions. It should also, without too much hassle, work on MacOS, **but without any guarantees**. If you wish to use MacOS or Windows, please know that we **might not be able to help you**.

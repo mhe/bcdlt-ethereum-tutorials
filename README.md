@@ -1,4 +1,4 @@
-![CuriousU logo](images/bctech.png)
+![BC Tech logo](images/bctech-logo.png)
 
 # Tutorial Ethereum and Smart Contracts
 
