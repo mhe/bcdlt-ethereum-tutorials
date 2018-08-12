@@ -1,5 +1,7 @@
 # Tutorial Ethereum and Smart Contracts
 
+![CuriousU logo](images/bctech.png)
+
 This tutorial is aimed to help you:
 
 - Set up an environment for writing and testing smart contracts for Ethereum.
