@@ -1,6 +1,7 @@
+![CuriousU logo](images/bctech.png)
+
 # Tutorial Ethereum and Smart Contracts
 
-![CuriousU logo](images/bctech.png)
 
 This tutorial is aimed to help you:
 
