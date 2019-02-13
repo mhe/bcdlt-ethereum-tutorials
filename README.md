@@ -1,6 +1,6 @@
 ![BC Tech logo](images/bcdlt-blocks-UT-500px.png)
 
-# CuriousU Blockchain Tech - Ethereum tutorials 
+# Blockchain & Distributed Ledger Technology - Ethereum tutorials 
 
 - Tutorial 1: [Building an ethereum network](./ethereum-network)
 - Tutorial 2: [Making smart contracts](./smart-contracts)

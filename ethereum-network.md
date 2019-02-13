@@ -1,4 +1,4 @@
-![BC Tech logo](images/bctech-logo.png)
+![BC Tech logo](images/bcdlt-blocks-UT-500px.png)
 # Making an Ethereum network
 
 This tutorial is aimed to help you:
